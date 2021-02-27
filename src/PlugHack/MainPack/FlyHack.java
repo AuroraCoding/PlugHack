@@ -13,8 +13,8 @@ public class FlyHack implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender commandSender, Command command, String s, String[] strings) {
 
-        if(commandSender instanceof Player) {
-            if(command.getLabel().equalsIgnoreCase("flyp")) {
+        if (commandSender instanceof Player) {
+            if (command.getLabel().equalsIgnoreCase("flyp")) {
                 Player player = (Player) commandSender;
                 if (commandSender instanceof Player) {
                     if (player.hasPermission("PlugHack.Fly")) {
@@ -29,7 +29,7 @@ public class FlyHack implements CommandExecutor {
                     }
                     if (!player.hasPermission("PlugHack.fly")) {
                         player.sendMessage(ChatColor.RED + "You do not have permission to run this command");
-                    }else {
+                    } else {
                         Bukkit.getLogger().info("Console cannot run this command");
                     }
                 }
@@ -37,5 +37,5 @@ public class FlyHack implements CommandExecutor {
         }
         return true;
     }
-    }
+}
 

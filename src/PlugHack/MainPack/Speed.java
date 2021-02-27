@@ -13,6 +13,7 @@ import java.util.Objects;
 
 public class Speed implements CommandExecutor {
     PlugHackMainC plugin;
+
     public Speed(PlugHackMainC plugin) {
         this.plugin = plugin;
     }
@@ -23,13 +24,13 @@ public class Speed implements CommandExecutor {
             if (commandSender instanceof Player) {
                 if (commandSender.hasPermission("PlugHack.Speed")) {
                     Player targetPlayer = ((Player) commandSender).getPlayer();
-                    if (Objects.requireNonNull(targetPlayer).getPersistentDataContainer().getOrDefault(new NamespacedKey(plugin, "speed"), PersistentDataType.STRING, "false").equals("false")) {
+                    if (Objects.requireNonNull(targetPlayer).getPersistentDataContainer().getOrDefault(new NamespacedKey(this.plugin, "speed"), PersistentDataType.STRING, "false").equals("false")) {
                         ((Player) commandSender).setWalkSpeed(1);
                         commandSender.sendMessage(ChatColor.GREEN + "Set your speed to " + "10");
-                        targetPlayer.getPersistentDataContainer().set(new NamespacedKey(plugin, "speed"), PersistentDataType.STRING, "true");
+                        targetPlayer.getPersistentDataContainer().set(new NamespacedKey(this.plugin, "speed"), PersistentDataType.STRING, "true");
 
-                    }else {
-                        targetPlayer.getPersistentDataContainer().set(new NamespacedKey(plugin, "speed"), PersistentDataType.STRING, "false");
+                    } else {
+                        targetPlayer.getPersistentDataContainer().set(new NamespacedKey(this.plugin, "speed"), PersistentDataType.STRING, "false");
                         targetPlayer.sendMessage(ChatColor.RED + "Disabled speed");
                         targetPlayer.setWalkSpeed(0.2f);
                     }
@@ -38,11 +39,11 @@ public class Speed implements CommandExecutor {
                 }
 
 
-            }else {
+            } else {
                 Bukkit.getLogger().info("Console cannot run this command");
             }
             return true;
         }
-    return true;
+        return true;
     }
 }

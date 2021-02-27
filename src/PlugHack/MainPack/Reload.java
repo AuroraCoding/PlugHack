@@ -7,6 +7,7 @@ import org.bukkit.command.CommandSender;
 
 public class Reload implements CommandExecutor {
     PlugHackMainC plugin;
+
     public Reload(PlugHackMainC plugin) {
         this.plugin = plugin;
     }
@@ -16,11 +17,11 @@ public class Reload implements CommandExecutor {
         if (command.getLabel().equalsIgnoreCase("plughackreload")) {
             if (commandSender.hasPermission("PlugHack.Reload")) {
                 commandSender.sendMessage(ChatColor.GREEN + "Reloading...");
-                plugin.reloadConfig();
+                this.plugin.reloadConfig();
                 commandSender.sendMessage(ChatColor.GREEN + "Reloaded config!");
             }
         }
 
-            return true;
+        return true;
     }
 }

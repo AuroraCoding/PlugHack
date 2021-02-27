@@ -17,5 +17,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="1.16.5" level="project" />
+    <orderEntry type="library" name="spigot-api-1.16.3-R0.1-SNAPSHOT-shaded" level="project" />
   </component>
 </module>

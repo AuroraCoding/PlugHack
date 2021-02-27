@@ -11,27 +11,28 @@ import org.bukkit.persistence.PersistentDataType;
 
 public class God implements CommandExecutor {
     PlugHackMainC plugin;
+
     public God(PlugHackMainC plugin) {
         this.plugin = plugin;
     }
 
     @Override
     public boolean onCommand(CommandSender commandSender, Command command, String s, String[] strings) {
-        if(command.getLabel().equalsIgnoreCase("godp")) {
-            if(commandSender instanceof Player) {
-                if(commandSender.hasPermission("PlugHack.God")) {
+        if (command.getLabel().equalsIgnoreCase("godp")) {
+            if (commandSender instanceof Player) {
+                if (commandSender.hasPermission("PlugHack.God")) {
                     Player targetPlayer = ((Player) commandSender).getPlayer();
-                    if(targetPlayer.getPersistentDataContainer().getOrDefault(new NamespacedKey(plugin,"god"), PersistentDataType.STRING, "false").equals("false")) {
-                        targetPlayer.getPersistentDataContainer().set(new NamespacedKey(plugin, "god"), PersistentDataType.STRING, "true");
+                    if (targetPlayer.getPersistentDataContainer().getOrDefault(new NamespacedKey(this.plugin, "god"), PersistentDataType.STRING, "false").equals("false")) {
+                        targetPlayer.getPersistentDataContainer().set(new NamespacedKey(this.plugin, "god"), PersistentDataType.STRING, "true");
                         commandSender.sendMessage(ChatColor.GREEN + "Enabled God");
-                    }else {
-                        targetPlayer.getPersistentDataContainer().set(new NamespacedKey(plugin, "god"), PersistentDataType.STRING, "false");
+                    } else {
+                        targetPlayer.getPersistentDataContainer().set(new NamespacedKey(this.plugin, "god"), PersistentDataType.STRING, "false");
                         commandSender.sendMessage(ChatColor.GREEN + "Disabled God");
                     }
-                }else{
+                } else {
                     commandSender.sendMessage(ChatColor.RED + "You do not have permission to run this command");
                 }
-            }else {
+            } else {
                 Bukkit.getLogger().info("Console cannot run this command");
             }
         }
