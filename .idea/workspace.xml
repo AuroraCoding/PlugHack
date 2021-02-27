@@ -7,24 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c852ecf3-15d9-4cc5-b0f6-12dc63c85ec0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/spigot_api_1_16_3_R0_1_SNAPSHOT_shaded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlugHack.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PlugHack.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PlugHack/MainPack/Events.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlugHack/MainPack/EventListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PlugHack/MainPack/FlyHack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlugHack/MainPack/FlyHack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PlugHack/MainPack/God.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlugHack/MainPack/God.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PlugHack/MainPack/Metrics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlugHack/MainPack/Metrics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PlugHack/MainPack/NoEffect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlugHack/MainPack/NoEffect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PlugHack/MainPack/NoFall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlugHack/MainPack/NoFall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PlugHack/MainPack/PlugHackMainC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlugHack/MainPack/PlugHackMainC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PlugHack/MainPack/Reload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlugHack/MainPack/Reload.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PlugHack/MainPack/ScaffoldCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlugHack/MainPack/ScaffoldCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PlugHack/MainPack/Speed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlugHack/MainPack/Speed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PlugHack/MainPack/Velocity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlugHack/MainPack/Velocity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
