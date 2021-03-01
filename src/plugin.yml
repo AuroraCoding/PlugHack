@@ -1,6 +1,6 @@
 name: PlugHack
 main: PlugHack.MainPack.PlugHackMainC
-version: 1
+version: 3
 prefix: PlugHack
 author: JuicySeals
 website:
@@ -19,6 +19,8 @@ permissions:
     description: Enabling the speed command
   PlugHack.Velocity:
     description: Enabling velocity
+  PlugHack.Jesus:
+    description: Enabling jesus
   PlugHack.*:
     description: Access to all the commands
     children:
@@ -29,6 +31,7 @@ permissions:
       PlugHack.Scaffold: true
       PlugHack.Speed: true
       PlugHack.Velocity: true
+      PlugHack.Jesus: true
 
 
 commands:
@@ -56,3 +59,6 @@ commands:
   Godp:
     description: Makes you not take any damage
     usage: /godp
+  Jesus:
+    description: Allows you to walk on water
+    usage: /jesus

@@ -27,7 +27,7 @@ public class God implements CommandExecutor {
                         commandSender.sendMessage(ChatColor.GREEN + "Enabled God");
                     } else {
                         targetPlayer.getPersistentDataContainer().set(new NamespacedKey(this.plugin, "god"), PersistentDataType.STRING, "false");
-                        commandSender.sendMessage(ChatColor.GREEN + "Disabled God");
+                        commandSender.sendMessage(ChatColor.RED + "Disabled God");
                     }
                 } else {
                     commandSender.sendMessage(ChatColor.RED + "You do not have permission to run this command");

@@ -17,11 +17,14 @@ public final class PlugHackMainC extends JavaPlugin implements Listener {
 
         this.getCommand("velocity").setExecutor(new Velocity(this));
         this.getCommand("godp").setExecutor(new God(this));
+        this.getCommand("jesus").setExecutor(new Jesus(this));
+        this.getCommand("plughackreload").setExecutor(new Reload(this));
+
         int pluginId = 10504;
         Metrics metrics = new Metrics(this, pluginId);
         this.saveDefaultConfig();
         Bukkit.getLogger().info("  _____   _                  _    _               _    ");
-        Bukkit.getLogger().info(" |  __ \\| |                | |  | |             | |   ");
+        Bukkit.getLogger().info(" |  __ \\ | |                | |  | |             | |   ");
         Bukkit.getLogger().info(" | |__) || | _   _   __ _   | |__| |  __ _   ___ | | __");
         Bukkit.getLogger().info(" |  ___/ | || | | | / _` |  |  __  | / _` | / __|| |/ /");
         Bukkit.getLogger().info(" | |     | || |_| || (_| |  | |  | || (_| || (__ |   < ");
@@ -35,7 +38,7 @@ public final class PlugHackMainC extends JavaPlugin implements Listener {
     @Override
     public void onDisable() {
         Bukkit.getLogger().info("  _____   _                  _    _               _    ");
-        Bukkit.getLogger().info(" |  __ \\ | |               | |  | |             | |   ");
+        Bukkit.getLogger().info(" |  __ \\| |                 | |  | |             | |   ");
         Bukkit.getLogger().info(" | |__) || | _   _   __ _   | |__| |  __ _   ___ | | __");
         Bukkit.getLogger().info(" |  ___/ | || | | | / _` |  |  __  | / _` | / __|| |/ /");
         Bukkit.getLogger().info(" | |     | || |_| || (_| |  | |  | || (_| || (__ |   < ");

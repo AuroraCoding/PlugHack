@@ -32,6 +32,7 @@ public final class EventListener implements Listener {
     private final NamespacedKey god;
     private final PlugHackMainC plugin;
 
+
     public EventListener(PlugHackMainC plugin) {
         this.plugin = plugin;
         this.scaffoldToggle = new NamespacedKey(plugin, "scaffoldtoggle");
@@ -40,7 +41,10 @@ public final class EventListener implements Listener {
         this.velocity = new NamespacedKey(plugin, "velocity");
         this.noEffect = new NamespacedKey(plugin, "noeffect");
         this.god = new NamespacedKey(plugin,"god");
+
+
     }
+
 
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent event) {
@@ -65,16 +69,36 @@ public final class EventListener implements Listener {
         Player player = event.getPlayer();
         PersistentDataContainer container = player.getPersistentDataContainer();
         boolean hasScaffold = Objects.equals(container.get(this.scaffoldToggle, PersistentDataType.STRING),TRUE_STRING);
+        Block block = player.getLocation().subtract(0, 1, 0).getBlock();
+
+        String configBlockJesus = this.plugin.getConfig().getString("jesus_block");
+        Material configBlock = Material.LIGHT_BLUE_STAINED_GLASS;
+
+        if (container.getOrDefault(new NamespacedKey(this.plugin, "jesus"), PersistentDataType.STRING, "false").equals("true")) {
+            if(block.getType() == Material.WATER) {
+                block.setType(configBlock);
+                Bukkit.getLogger().info("WORKING");
+                Bukkit.getScheduler().runTaskLater(this.plugin, new Runnable() {
+                    @Override
+                    public void run() {
+                        block.setType(Material.WATER);
+                    }
+                }, 20);
+            }
+        }
 
         if (!hasScaffold) {
             return;
         }
 
-        Block block = player.getLocation().subtract(0, 1, 0).getBlock();
+
 
         if (block.getType() != Material.AIR) {
             return;
         }
+
+
+
 
         MemorySection config = this.plugin.getConfig();
         String configBlockMaterial = config.getString("scaffold_block");
@@ -83,6 +107,7 @@ public final class EventListener implements Listener {
             this.plugin.getLogger().severe("Absent material value.");
             Bukkit.getPluginManager().disablePlugin(this.plugin);
             return;
+
         }
 
         Material configblock = Material.matchMaterial(configBlockMaterial);

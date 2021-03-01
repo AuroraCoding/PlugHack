@@ -6,8 +6,32 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c852ecf3-15d9-4cc5-b0f6-12dc63c85ec0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.yml" afterDir="false" />
+    <list default="true" id="c852ecf3-15d9-4cc5-b0f6-12dc63c85ec0" name="Default Changelist" comment="Removed unnecessary part of the config">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PlugHack/PlugHack/MainPack/Events.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PlugHack/PlugHack/MainPack/Events.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PlugHack/PlugHack/MainPack/FlyHack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PlugHack/PlugHack/MainPack/FlyHack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PlugHack/PlugHack/MainPack/FlyHack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PlugHack/PlugHack/MainPack/God.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PlugHack/PlugHack/MainPack/Metrics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PlugHack/PlugHack/MainPack/NoEffect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PlugHack/PlugHack/MainPack/NoEffect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PlugHack/PlugHack/MainPack/NoFall.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PlugHack/PlugHack/MainPack/NoFall.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PlugHack/PlugHack/MainPack/NoFall.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PlugHack/PlugHack/MainPack/PlugHackMainC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PlugHack/PlugHack/MainPack/PlugHackMainC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PlugHack/PlugHack/MainPack/PlugHackMainC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PlugHack/PlugHack/MainPack/Reload.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PlugHack/PlugHack/MainPack/Reload.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PlugHack/PlugHack/MainPack/Reload.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PlugHack/PlugHack/MainPack/ScaffoldCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PlugHack/PlugHack/MainPack/ScaffoldCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PlugHack/PlugHack/MainPack/ScaffoldCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PlugHack/PlugHack/MainPack/Speed.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PlugHack/PlugHack/MainPack/Speed.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PlugHack/PlugHack/MainPack/Speed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PlugHack/PlugHack/MainPack/Velocity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PlugHack/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PlugHack/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PlugHack/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PlugHack/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PlugHack/MainPack/EventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlugHack/MainPack/EventListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PlugHack/MainPack/God.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlugHack/MainPack/God.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PlugHack/MainPack/PlugHackMainC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlugHack/MainPack/PlugHackMainC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +74,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Skrivbord/BuildTools/BuildTools-1.16.4/Spigot/Spigot-API/target/spigot-api-1.16.3-R0.1-SNAPSHOT-shaded.jar" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
@@ -79,7 +103,14 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1614464019940</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Removed unnecessary part of the config">
+      <created>1614465114204</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614465114204</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +136,7 @@
       <path value="$PROJECT_DIR$/PlugHack" />
     </ignored-roots>
     <MESSAGE value="Fixed NullPointerException in event listener, reformatted and cleaned up code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed NullPointerException in event listener, reformatted and cleaned up code" />
+    <MESSAGE value="Removed unnecessary part of the config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed unnecessary part of the config" />
   </component>
 </project>

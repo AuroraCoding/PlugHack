@@ -12,9 +12,8 @@
 
 # All blocks must be in there id form which can be found here: https://minecraft-ids.grahamedgecombe.com/
 scaffold_block: STONE
+jesus_block: LIGHT_BLUE_STAINED_GLASS
 
 
 # DO NOT CHANGE THE VALUES BELOW
 firststart: true
-sid:
-logged: false
