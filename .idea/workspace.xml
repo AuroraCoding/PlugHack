@@ -9,45 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c852ecf3-15d9-4cc5-b0f6-12dc63c85ec0" name="Default Changelist" comment="Dev Build v0.5&#10;Added Jesus Hack">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_21_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_md_5_bungeecord_chat_1_16_R0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_spigotmc_spigot_api_1_16_5_R0_1_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_27.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlugHack.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PlugHack.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlugHack/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlugHack/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PlugHack/PlugHack/MainPack/FlyHack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PlugHack/PlugHack/MainPack/NoEffect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PlugHack/PlugHack/MainPack/NoFall.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PlugHack/PlugHack/MainPack/PlugHackMainC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PlugHack/PlugHack/MainPack/Reload.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PlugHack/PlugHack/MainPack/ScaffoldCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PlugHack/PlugHack/MainPack/Speed.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PlugHack/config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PlugHack/plugin.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PlugHack/MainPack/EventListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PlugHack/MainPack/FlyHack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PlugHack/MainPack/God.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PlugHack/MainPack/Metrics.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PlugHack/MainPack/NoEffect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PlugHack/MainPack/NoFall.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PlugHack/MainPack/PlugHackMainC.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PlugHack/MainPack/Reload.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PlugHack/MainPack/ScaffoldCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PlugHack/MainPack/Speed.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PlugHack/MainPack/Velocity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/plugin.yml" beforeDir="false" />
+    <list default="true" id="c852ecf3-15d9-4cc5-b0f6-12dc63c85ec0" name="Default Changelist" comment="Dev Build v1&#10;Fixed maven issue">
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,12 +47,15 @@
     </ignored-facets>
   </component>
   <component name="ProjectId" id="1oDDMUSTWMOjols7dHJUZH8USxY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -101,6 +68,9 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\drizz\Documents\Spigot\PlugHack3\src\main\resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\drizz\Documents\Spigot\PlugHack\src" />
     </key>
@@ -213,7 +183,28 @@
       <option name="project" value="LOCAL" />
       <updated>1614626797583</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Dev Build v1&#10;Fixed maven issue">
+      <created>1614705239855</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1614705239855</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Dev Build v1&#10;Fixed maven issue">
+      <created>1614705356153</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1614705356153</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Dev Build v1&#10;Fixed maven issue">
+      <created>1614705423769</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1614705423769</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,13 +226,15 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/PlugHack" />
     </ignored-roots>
     <MESSAGE value="Fixed NullPointerException in event listener, reformatted and cleaned up code" />
     <MESSAGE value="Removed unnecessary part of the config" />
     <MESSAGE value="Dev Build v0.5&#10;Added Jesus Hack" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dev Build v0.5&#10;Added Jesus Hack" />
+    <MESSAGE value="Dev Build v1&#10;Fixed maven issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dev Build v1&#10;Fixed maven issue" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

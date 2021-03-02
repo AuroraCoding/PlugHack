@@ -1,0 +1,63 @@
+name: PlugHack
+main: PlugHack.MainPack.PlugHackMainC
+version: 3
+prefix: PlugHack
+author: JuicySeals
+permissions:
+  PlugHack.God:
+    description: Enabling the god command
+  PlugHack.Fly:
+    description: Enabling the flyp command
+  PlugHack.NoFall:
+    description: Enabling the no fall command
+  PlugHack.Reload:
+    description: Reloading the plugin
+  PlugHack.Scaffold:
+    description: Enabling the scaffold command
+  PlugHack.Speed:
+    description: Enabling the speed command
+  PlugHack.Velocity:
+    description: Enabling velocity
+  PlugHack.Jesus:
+    description: Enabling jesus
+  PlugHack.*:
+    description: Access to all the commands
+    children:
+      PlugHack.God: true
+      PlugHack.Fly: true
+      PlugHack.NoFall: true
+      PlugHack.Reload: true
+      PlugHack.Scaffold: true
+      PlugHack.Speed: true
+      PlugHack.Velocity: true
+      PlugHack.Jesus: true
+
+
+commands:
+  Flyp:
+    description: Turns on fly
+    usage: /flyp
+  Scaffold:
+    description: Turns on scaffold
+    usage: /scaffold
+  Plughackreload:
+    description: Reloads the command
+    usage: /plughackreload
+  Speed:
+    description: Turns on speed hacks
+    usage: /speed
+  Nofall:
+    description: Turns No fall damage hacks
+    usage: /nofall
+  NoEffect:
+    description: Turns off potion effects
+    usage: /noeffect
+  Velocity:
+    description: Turns off knockback
+    usage: /velocity
+  Godp:
+    description: Makes you not take any damage
+    usage: /godp
+  Jesus:
+    description: Allows you to walk on water
+    usage: /jesus
