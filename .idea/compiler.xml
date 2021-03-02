@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="maven" />
+        <module name="PlugHack3" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="maven" target="8" />
+      <module name="PlugHack3" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
