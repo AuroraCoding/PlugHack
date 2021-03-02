@@ -31,5 +31,16 @@ The current commands are:
 ## Installation
 This plugin is very simple to install on your server. Just drag and drop the Jar from releases into the **plugins** folder
 
+## Examples
+
+**Scaffold**
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/64713886/109690387-4a5cd800-7b54-11eb-9b66-41241f4af990.gif)
+
+**Jesus**
+
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/64713886/109690695-9f005300-7b54-11eb-9f3f-8b91571d9437.gif)
+
+
 ## bStats
 bStats collects anonymous date about how many servers are using the plugin
