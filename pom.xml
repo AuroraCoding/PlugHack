@@ -48,6 +48,7 @@
                 <configuration>
                     <source>8</source>
                     <target>8</target>
+                    <buildDirectory>C:\Users\drizz\Documents\Spigot\TestServer1\plugins</buildDirectory>
                 </configuration>
             </plugin>
         </plugins>

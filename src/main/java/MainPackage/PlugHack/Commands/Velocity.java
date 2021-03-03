@@ -36,7 +36,7 @@ public class Velocity implements CommandExecutor {
                     commandSender.sendMessage(ChatColor.RED + "You do not have permission to run this command");
                 }
             } else {
-                Bukkit.getLogger().info("Console cant run this command");
+                Bukkit.getLogger().info("Console cannot run this command");
             }
         }
 

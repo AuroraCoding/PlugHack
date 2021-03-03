@@ -29,11 +29,11 @@ public class FlyHack implements CommandExecutor {
                     }
                     if (!player.hasPermission("PlugHack.fly")) {
                         player.sendMessage(ChatColor.RED + "You do not have permission to run this command");
-                    } else {
-                        Bukkit.getLogger().info("Console cannot run this command");
                     }
                 }
             }
+        }else {
+            Bukkit.getLogger().info("Console cannot run this command");
         }
         return true;
     }

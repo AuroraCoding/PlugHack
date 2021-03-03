@@ -69,22 +69,74 @@ public final class EventListener implements Listener {
         PersistentDataContainer container = player.getPersistentDataContainer();
         boolean hasScaffold = Objects.equals(container.get(this.scaffoldToggle, PersistentDataType.STRING),TRUE_STRING);
         Block block = player.getLocation().subtract(0, 1, 0).getBlock();
-
+        int blockTime = plugin.getConfig().getInt("Jesus_Block_Time");
         String configBlockJesus = this.plugin.getConfig().getString("jesus_block");
         Material configBlock = Material.LIGHT_BLUE_STAINED_GLASS;
 
-        if (container.getOrDefault(new NamespacedKey(this.plugin, "jesus"), PersistentDataType.STRING, "false").equals("true")) {
-            if(block.getType() == Material.WATER) {
-                block.setType(configBlock);
-                Bukkit.getLogger().info("WORKING");
-                Bukkit.getScheduler().runTaskLater(this.plugin, new Runnable() {
-                    @Override
-                    public void run() {
-                        block.setType(Material.WATER);
-                    }
-                }, 20);
-            }
-        }
+       if(plugin.getConfig().isSet("Jesus_Block_Time")) {
+           if (container.getOrDefault(new NamespacedKey(this.plugin, "jesus"), PersistentDataType.STRING, "false").equals("true")) {
+               if(block.getType() == Material.WATER) {
+                   block.setType(configBlock);
+                   Bukkit.getScheduler().runTaskLater(this.plugin, new Runnable() {
+                       @Override
+                       public void run() {
+                           block.setType(Material.WATER);
+                       }
+                   }, blockTime);
+               }
+               if(block.getType() == Material.KELP_PLANT) {
+                   block.setType(configBlock);
+
+                   Bukkit.getScheduler().runTaskLater(this.plugin, new Runnable() {
+                       @Override
+                       public void run() {
+                           block.setType(Material.WATER);
+                       }
+                   }, blockTime);
+               }
+               if(block.getType() == Material.KELP) {
+                   block.setType(configBlock);
+                   Bukkit.getScheduler().runTaskLater(this.plugin, new Runnable() {
+                       @Override
+                       public void run() {
+                           block.setType(Material.WATER);
+                       }
+                   }, blockTime);
+               }
+           }
+       }else {
+           if (container.getOrDefault(new NamespacedKey(this.plugin, "jesus"), PersistentDataType.STRING, "false").equals("true")) {
+               if(block.getType() == Material.WATER) {
+                   block.setType(configBlock);
+                   Bukkit.getScheduler().runTaskLater(this.plugin, new Runnable() {
+                       @Override
+                       public void run() {
+                           block.setType(Material.WATER);
+                       }
+                   }, 20);
+               }
+               if(block.getType() == Material.KELP_PLANT) {
+                   block.setType(configBlock);
+
+                   Bukkit.getScheduler().runTaskLater(this.plugin, new Runnable() {
+                       @Override
+                       public void run() {
+                           block.setType(Material.WATER);
+                       }
+                   }, 20);
+               }
+               if(block.getType() == Material.KELP) {
+                   block.setType(configBlock);
+                   Bukkit.getScheduler().runTaskLater(this.plugin, new Runnable() {
+                       @Override
+                       public void run() {
+                           block.setType(Material.WATER);
+                       }
+                   }, 20);
+               }
+           }
+       }
+
 
         if (!hasScaffold) {
             return;

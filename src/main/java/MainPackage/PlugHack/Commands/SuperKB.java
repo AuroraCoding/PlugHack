@@ -20,22 +20,29 @@ public class SuperKB implements CommandExecutor {
 
     @Override
     public boolean onCommand(CommandSender commandSender, Command command, String s, String[] strings) {
-        Player targetPlayer = ((Player) commandSender).getPlayer();
+
         boolean hasPerm = commandSender.hasPermission("PlugHack.SuperKB");
         boolean isPlayer = commandSender instanceof Player;
         boolean isCommand = command.getLabel().equalsIgnoreCase("superkb");
-        boolean hasPDC = targetPlayer.getPersistentDataContainer().getOrDefault(new NamespacedKey(this.plugin, "superkb"), PersistentDataType.STRING, "false").equals("true");
-        PersistentDataContainer PDCContainer = targetPlayer.getPersistentDataContainer();
+        boolean isSet = plugin.getConfig().isSet("superkb_amount");
 
         if(isCommand) {
             if(isPlayer) {
+                Player targetPlayer = ((Player) commandSender).getPlayer();
+                boolean hasPDC = targetPlayer.getPersistentDataContainer().getOrDefault(new NamespacedKey(this.plugin, "superkb"), PersistentDataType.STRING, "false").equals("true");
+                PersistentDataContainer PDCContainer = targetPlayer.getPersistentDataContainer();
                 if(hasPerm) {
-                    if(!hasPDC) {
-                        PDCContainer.set(new NamespacedKey(this.plugin, "superkb"), PersistentDataType.STRING, "true");
-                        targetPlayer.sendMessage(ChatColor.GREEN + "Enabled Super knockback");
+                    if(isSet) {
+                        int KnockBackInt = plugin.getConfig().getInt("superkb_knockback_amount");
+                        if(!hasPDC) {
+                            PDCContainer.set(new NamespacedKey(this.plugin, "superkb"), PersistentDataType.STRING, "true");
+                            targetPlayer.sendMessage(ChatColor.GREEN + "Enabled Super knockback");
+                        }else {
+                            PDCContainer.set(new NamespacedKey(this.plugin, "superkb"), PersistentDataType.STRING, "false");
+                            targetPlayer.sendMessage(ChatColor.RED+ "Disabled Super knockback");
+                        }
                     }else {
-                        PDCContainer.set(new NamespacedKey(this.plugin, "superkb"), PersistentDataType.STRING, "false");
-                        targetPlayer.sendMessage(ChatColor.RED+ "Disabled Super knockback");
+                        commandSender.sendMessage(ChatColor.RED + "Please specify a amount of knockback in the config");
                     }
                 }else {
                     commandSender.sendMessage(ChatColor.RED + "You do not have permission to run this command");

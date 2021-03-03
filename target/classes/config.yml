@@ -8,11 +8,14 @@
 #                   |___/
 #
 # A JuicySeal creation
+# If you need support https://discord.gg/fh7bmag9DY
 
 
 # All blocks must be in there id form which can be found here: https://minecraft-ids.grahamedgecombe.com/
 scaffold_block: STONE
 
+# Negative numbers will make the hurt entity go backwards
+superkb_amount: 5
 
-# DO NOT CHANGE THE VALUES BELOW
-firststart: true
+# The amount of ticks (20 ticks = 1 second) that the blocks that were created for you to walk on water will last
+Jesus_Block_Time: 20
