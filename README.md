@@ -19,7 +19,7 @@ The current commands are:
 - **/flyp:** Turns on fly
 
 - **/jesus:** Turns on jesus hacks (You can walk on water)
--
+
 - **/speed:** Turns on speed hacks
 
 - **/nofall:** Turns on fall damage hacks
