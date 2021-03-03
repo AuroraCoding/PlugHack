@@ -1,5 +1,6 @@
-package MainPackage.PlugHack;
+package MainPackage.PlugHack.Commands;
 
+import MainPackage.PlugHack.PlugHackMainC;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.NamespacedKey;

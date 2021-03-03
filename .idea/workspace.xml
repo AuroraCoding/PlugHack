@@ -10,13 +10,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c852ecf3-15d9-4cc5-b0f6-12dc63c85ec0" name="Default Changelist" comment="Dev Build v1&#10;Fixed maven issue">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlugHack3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainPackage/PlugHack/Commands/SuperKB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainPackage/PlugHack/Events/EventListener2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/PlugHack/EventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPackage/PlugHack/Events/EventListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/PlugHack/FlyHack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPackage/PlugHack/Commands/FlyHack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/PlugHack/God.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPackage/PlugHack/Commands/God.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/PlugHack/Jesus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPackage/PlugHack/Commands/Jesus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/PlugHack/NoEffect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/PlugHack/NoFall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPackage/PlugHack/Commands/NoFall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/PlugHack/PlugHackMainC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPackage/PlugHack/PlugHackMainC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/PlugHack/Reload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPackage/PlugHack/Commands/Reload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/PlugHack/ScaffoldCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPackage/PlugHack/Commands/ScaffoldCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/PlugHack/Speed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPackage/PlugHack/Commands/Speed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainPackage/PlugHack/Velocity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPackage/PlugHack/Commands/Velocity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +79,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -162,7 +171,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614705423769</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Dev Build v1&#10;Fixed maven issue">
+      <created>1614712671919</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1614712671919</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Dev Build v1&#10;Fixed maven issue">
+      <created>1614712710942</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1614712710942</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,5 +1,8 @@
 package MainPackage.PlugHack;
 
+import MainPackage.PlugHack.Commands.*;
+import MainPackage.PlugHack.Events.EventListener;
+import MainPackage.PlugHack.Events.EventListener2;
 import org.bukkit.Bukkit;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -11,10 +14,11 @@ public final class PlugHackMainC extends JavaPlugin implements Listener {
     public void onEnable() {
         this.getCommand("flyp").setExecutor(new FlyHack());
         this.getServer().getPluginManager().registerEvents(new EventListener(this), this);
+        this.getServer().getPluginManager().registerEvents(new EventListener2(this), this);
         this.getCommand("scaffold").setExecutor(new ScaffoldCommand(this));
         this.getCommand("speed").setExecutor(new Speed(this));
         this.getCommand("nofall").setExecutor(new NoFall(this));
-
+        this.getCommand("superkb").setExecutor(new SuperKB(this));
         this.getCommand("velocity").setExecutor(new Velocity(this));
         this.getCommand("godp").setExecutor(new God(this));
         this.getCommand("jesus").setExecutor(new Jesus(this));

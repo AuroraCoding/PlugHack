@@ -1,4 +1,4 @@
-package MainPackage.PlugHack;
+package MainPackage.PlugHack.Commands;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;

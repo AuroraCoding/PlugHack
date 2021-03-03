@@ -1,17 +1,16 @@
-package MainPackage.PlugHack;
+package MainPackage.PlugHack.Events;
 
+import MainPackage.PlugHack.PlugHackMainC;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
 import org.bukkit.block.Block;
 import org.bukkit.configuration.MemorySection;
 import org.bukkit.entity.Entity;
-import org.bukkit.entity.LivingEntity;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityDamageEvent;
-import org.bukkit.event.entity.PotionSplashEvent;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.event.player.PlayerMoveEvent;
 import org.bukkit.event.player.PlayerVelocityEvent;
@@ -138,18 +137,6 @@ public final class EventListener implements Listener {
 
         if (hasGod) {
             event.setCancelled(true);
-        }
-    }
-
-    @EventHandler
-    public void onPotionSplash(PotionSplashEvent event) {
-        for (LivingEntity entity : event.getAffectedEntities()) {
-            PersistentDataContainer container = entity.getPersistentDataContainer();
-            boolean hasNoEffect = Objects.equals(container.get(this.noEffect,PersistentDataType.STRING),TRUE_STRING);
-
-            if (hasNoEffect) {
-                entity.getActivePotionEffects().clear();
-            }
         }
     }
 

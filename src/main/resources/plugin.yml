@@ -1,5 +1,5 @@
 name: PlugHack
-main: PlugHack.MainPack.PlugHackMainC
+main: MainPackage.PlugHack.PlugHackMainC
 version: 3
 prefix: PlugHack
 author: JuicySeals
@@ -8,6 +8,8 @@ permissions:
     description: Enabling the god command
   PlugHack.Fly:
     description: Enabling the flyp command
+  PlugHack.SuperKB:
+    description: Enabling the superkb command
   PlugHack.NoFall:
     description: Enabling the no fall command
   PlugHack.Reload:
@@ -31,6 +33,7 @@ permissions:
       PlugHack.Speed: true
       PlugHack.Velocity: true
       PlugHack.Jesus: true
+      PlugHack.SuperKB: true
 
 
 commands:
