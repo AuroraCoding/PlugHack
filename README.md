@@ -41,7 +41,7 @@ The current commands are:
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/64713886/109690695-9f005300-7b54-11eb-9f3f-8b91571d9437.gif)
 
 ## Pull requests
-Pull requests are allowed. This plugin uses maven for the dependicies.
+Pull requests are allowed. This plugin uses maven for the dependencies.
 
 ## bStats
 bStats collects anonymous date about how many servers are using the plugin. You can opt out of this by disabling it in the bStats config.
